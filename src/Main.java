@@ -13,10 +13,10 @@ public class Main {
 
         switch(type) {
             case CHILDREN_BOOK :
-                book = new CHILDREN_BOOK();
+                book = new ChildrenBook();
                 break;
             case COMIC_BOOK :
-                book = new COMIC_BOOK();
+                book = new ComicBook();
                 break;
         }
 
